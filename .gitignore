@@ -1,0 +1,43 @@
+# Data (images/labels are large binary/text data, not tracked)
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.txt
+!data/**/.gitkeep
+
+# Outputs
+outputs/weights/*
+outputs/predictions/*
+!outputs/weights/.gitkeep
+!outputs/predictions/.gitkeep
+!outputs/metrics/.gitkeep
+!outputs/metrics/*.csv
+
+# Pretrained / trained model weights
+*.pt
+*.onnx
+
+# YOLO runs
+runs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Ultralytics cache files
+*.cache

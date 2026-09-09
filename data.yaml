@@ -1,0 +1,16 @@
+path: data/yolo_subset_10k
+train: images/train
+val: images/val
+
+nc: 10
+names:
+  - person
+  - rider
+  - car
+  - bus
+  - truck
+  - bike
+  - motor
+  - traffic light
+  - traffic sign
+  - train
